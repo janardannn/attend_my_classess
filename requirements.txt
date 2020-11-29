@@ -1,15 +1,4 @@
-python module:-
 pytz
 tzlocal
 selenium 
 win10toast
-
-chrome browser and chrome webdriver
-
-
-import class_info  # importing class_info for url of google classrooms and class timings
-import student_info# importing student_info for student's login credentials
-from time_now import current_indian_time as time_now # from time_now module importing current IST
-
-
-https://accounts.google.com/signin/v2/identifier?service=classroom&passive=1209600&continue=https%3A%2F%2Fclassroom.google.com%2F%3Femr%3D0&followup=https%3A%2F%2Fclassroom.google.com%2F%3Femr%3D0&flowName=GlifWebSignIn&flowEntry=ServiceLogin
