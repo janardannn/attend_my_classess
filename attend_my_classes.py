@@ -39,7 +39,8 @@ class Firelord_Azula:
         print('-----------------------------------------------------------------',end='\n')
     
         # using webdriver to initiate our Browser  
-        
+	
+	self.driver = webdriver.Browser('/path_to_webdriver')        
         # set attendance today to 0 at start, and checks if it is 0, if not then the object calls the attendance function for the particular subject else pass
 
         self.xyz_attendance_today = 0
