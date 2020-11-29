@@ -1,5 +1,5 @@
 # Attend My Classes
-## This python scripts attends online classes for you.
+## Python script that attends online classes for you.
 This script can mark attendance in google classroom, attend live classes in google meet.
 ## Installation
 ```bash
