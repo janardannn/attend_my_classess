@@ -1,6 +1,6 @@
-from requirements import student_info  # importing student_info for student's login credentials
-from requirements import class_info   # importing class_info for url of google classrooms and class timings
-from requirements.time_now import current_indian_time as time_now    # use time_now module to get current time as par IST time-zone
+from scripts import student_info  # importing student_info for student's login credentials
+from scripts import class_info   # importing class_info for url of google classrooms and class timings
+from scripts.time_now import current_indian_time as time_now    # use time_now module to get current time as par IST time-zone
 import selenium                     # to deal with NoSuchElementException error
 from selenium import webdriver     # using selenium module for automation
 import time                       # to time.sleep as some page(s) load much slower and selenium may raise NoSuchElementException error
